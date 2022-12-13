@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="DUKfKug5vApFZQZ7h-Wh" name="Anwendungsdiagramm">
-        <mxGraphModel dx="851" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="968" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -22,7 +22,7 @@
                 <mxCell id="50" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="13" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="13" target="15">
+                <mxCell id="69" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="13" target="15" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="Benachrichtung über&amp;nbsp;&lt;br&gt;E-Mail oder SMS" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -46,7 +46,7 @@
                 <mxCell id="15" value="Kostenstellen&lt;br&gt;verantwortlicher" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
                     <mxGeometry x="760" y="120" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="18" target="13">
+                <mxCell id="65" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="18" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="Antrag zur&lt;br&gt;&amp;nbsp;Genehmigung&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
