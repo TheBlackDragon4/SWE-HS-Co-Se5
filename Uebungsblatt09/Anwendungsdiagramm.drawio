@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="DUKfKug5vApFZQZ7h-Wh" name="Anwendungsdiagramm">
-        <mxGraphModel dx="1035" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1354" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="34" value="DRAGEES" style="shape=umlFrame;whiteSpace=wrap;html=1;width=90;height=30;" parent="1" vertex="1">
-                    <mxGeometry x="110" width="920" height="800" as="geometry"/>
+                    <mxGeometry x="110" y="10" width="920" height="800" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="Reiseantrag erstellen&lt;br&gt;Extension point: Änderung &amp;amp; Fahrkarte" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="360" y="460" width="140" height="70" as="geometry"/>
@@ -53,7 +53,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="62" value="Reisebüro&lt;br&gt;(Hochschulintern)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="700" width="30" height="60" as="geometry"/>
+                    <mxGeometry x="39" y="670" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="71" value="Dienstantrag&amp;nbsp;&lt;br&gt;ändern oder&amp;nbsp;&lt;br&gt;zurückziehen" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="201" y="632" width="140" height="70" as="geometry"/>
@@ -64,11 +64,11 @@
                 <mxCell id="142" style="edgeStyle=none;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="94" target="126">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="143" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="94" target="140">
+                <mxCell id="143" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="94" target="140">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="94" value="Haushaltsstelle" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="39" y="80" width="30" height="60" as="geometry"/>
+                    <mxGeometry x="39" y="70" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="99" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;" parent="1" source="19" target="13" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
@@ -147,43 +147,61 @@
                         <mxPoint x="540.9999999999898" y="690" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="126" value="Erstellungsantrag" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="126" value="Erstattungsantrag" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="220" y="30" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="128" value="Belege beifügen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="740" y="30" width="140" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="129" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;startArrow=none;" edge="1" parent="1" source="131" target="128">
-                    <mxGeometry x="0.0469" width="160" relative="1" as="geometry">
-                        <mxPoint x="360" y="80" as="sourcePoint"/>
-                        <mxPoint x="520" y="80" as="targetPoint"/>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
                 <mxCell id="130" value="Condition: (Dienstreisende == Belege beifügen)&lt;br&gt;Extension point: Belege beifügen" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;direction=east;" vertex="1" parent="1">
-                    <mxGeometry x="680" y="110" width="300" height="40" as="geometry"/>
+                    <mxGeometry x="680" y="110" width="320" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="133" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="131" target="130">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="131" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-                    <mxGeometry x="500" y="60" width="10" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="132" value="" style="endArrow=none;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="126" target="131">
-                    <mxGeometry x="0.0469" width="160" relative="1" as="geometry">
-                        <mxPoint x="329.0531046556571" y="89.26265005828367" as="sourcePoint"/>
-                        <mxPoint x="541.006442163072" y="70.9137335288795" as="targetPoint"/>
-                        <mxPoint as="offset"/>
+                <mxCell id="133" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" target="130">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="508.53553390593265" y="68.53553390593282" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="140" value="Abrechnungsbescheid&lt;br&gt;einsehbar" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="270" y="130" width="140" height="70" as="geometry"/>
+                <mxCell id="140" value="Abrechnungsbescheid&lt;br&gt;einsehbar&lt;br&gt;Extension point:&amp;nbsp;&lt;br&gt;Bescheid drucken" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="145" width="160" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="146" value="Abrechnungsbescheid&lt;br&gt;drucken" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="550" y="250" width="140" height="70" as="geometry"/>
+                    <mxGeometry x="660" y="260" width="140" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="148" value="Condition: (Dienstreisende == Belege beifügen)&lt;br&gt;Extension point: Belege beifügen" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;direction=east;" vertex="1" parent="1">
-                    <mxGeometry x="720" y="250" width="300" height="40" as="geometry"/>
+                <mxCell id="156" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="148" target="154">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="Condition: (Personal == Dienstreisender)&lt;br&gt;Extension point: Bescheid drucken" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;direction=east;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="180" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;startArrow=none;" edge="1" parent="1" source="151" target="126">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="490" y="50" as="sourcePoint"/>
+                        <mxPoint x="650" y="50" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="151" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="60" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="" style="endArrow=none;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="128" target="151">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="739.999999999997" y="64.99999999999994" as="sourcePoint"/>
+                        <mxPoint x="360" y="64.99999999999994" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="153" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;startArrow=none;" edge="1" parent="1" source="154" target="140">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="450" y="220" as="sourcePoint"/>
+                        <mxPoint x="610" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="154" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="235" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="" style="endArrow=none;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="146" target="154">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="633.5558980770741" y="268.8134318945205" as="sourcePoint"/>
+                        <mxPoint x="478.5442433374153" y="190.2163460814491" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
