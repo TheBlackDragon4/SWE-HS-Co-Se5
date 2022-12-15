@@ -1,11 +1,20 @@
 <mxfile host="65bd71144e">
     <diagram id="XdSc9m3MNbuZqc3djqfS" name="Seite-1">
-        <mxGraphModel dx="1170" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="865" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="ellipse;fillColor=#000000;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="ellipse;fillColor=#000000;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="530" y="60" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Reiseantrag&lt;br&gt;gestellt" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;gradientColor=none;shadow=0;glass=0;sketch=0;labelBackgroundColor=none;perimeterSpacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="170" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="770" width="30" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
