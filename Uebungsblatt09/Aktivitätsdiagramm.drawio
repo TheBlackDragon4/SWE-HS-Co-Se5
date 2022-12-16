@@ -1,20 +1,133 @@
 <mxfile host="65bd71144e">
-    <diagram id="XdSc9m3MNbuZqc3djqfS" name="Seite-1">
-        <mxGraphModel dx="865" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <diagram id="XdSc9m3MNbuZqc3djqfS" name="Aktivitätsdiagramm">
+        <mxGraphModel dx="1175" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="8" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2" target="4">
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;" parent="1" source="2" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="" style="ellipse;fillColor=#000000;strokeColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="530" y="60" width="30" height="30" as="geometry"/>
+                    <mxGeometry x="385" y="40" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="Reiseantrag&lt;br&gt;gestellt" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;gradientColor=none;shadow=0;glass=0;sketch=0;labelBackgroundColor=none;perimeterSpacing=0;" vertex="1" parent="1">
-                    <mxGeometry x="475" y="170" width="140" height="40" as="geometry"/>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="4" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="1">
-                    <mxGeometry x="530" y="770" width="30" height="30" as="geometry"/>
+                <mxCell id="4" value="Dienstreiseantrag&lt;br&gt;stellen" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;gradientColor=none;shadow=0;glass=0;sketch=0;labelBackgroundColor=none;perimeterSpacing=0;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="110" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="385" y="1080" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="9" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Eingabe von&amp;nbsp;&lt;br&gt;Zweck, Ort, Dauer" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;gradientColor=none;shadow=0;glass=0;sketch=0;labelBackgroundColor=none;perimeterSpacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="200" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="12" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Auswahl der&amp;nbsp;&lt;br&gt;Kostenstelle" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;gradientColor=none;shadow=0;glass=0;sketch=0;labelBackgroundColor=none;perimeterSpacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="340" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="[nicht ausgewählt]" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="12">
+                    <mxGeometry x="0.2381" relative="1" as="geometry">
+                        <mxPoint x="215" y="436" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="290" y="435"/>
+                            <mxPoint x="290" y="360"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="[Auswählen]" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="15" target="50">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="499.9999999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="rhombus;" vertex="1" parent="1">
+                    <mxGeometry x="385" y="420" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="[fehlende Bestätigung]" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="48">
+                    <mxGeometry x="0.2381" relative="1" as="geometry">
+                        <mxPoint x="215" y="746" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="290" y="745"/>
+                            <mxPoint x="290" y="670"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="[Bestätigung]" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="24" target="25">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="867" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="" style="rhombus;" vertex="1" parent="1">
+                    <mxGeometry x="385" y="730" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="25" target="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="930" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="Benachrichtigung des&lt;br&gt;Vorgesetzten &amp;amp; &lt;br&gt;Kostenstellenverantwortlichen&lt;br&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;gradientColor=none;shadow=0;glass=0;sketch=0;labelBackgroundColor=none;perimeterSpacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="810" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="26" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Bestätigung der&amp;nbsp;&lt;br&gt;erfolgreichen&lt;br&gt;Erstellung" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;gradientColor=none;shadow=0;glass=0;sketch=0;labelBackgroundColor=none;perimeterSpacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="345" y="987" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="[nicht Eingegeben]" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="39" target="9">
+                    <mxGeometry x="0.2381" relative="1" as="geometry">
+                        <mxPoint x="215" y="316" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="300" y="285"/>
+                            <mxPoint x="300" y="220"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="[Eingeben]" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="39" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="394" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="" style="rhombus;" vertex="1" parent="1">
+                    <mxGeometry x="385" y="270" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="48" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="Bestätigung des&lt;br&gt;Zusammengefassten&lt;br&gt;Dienstreiseantrags" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;gradientColor=none;shadow=0;glass=0;sketch=0;labelBackgroundColor=none;perimeterSpacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="640" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="50" target="54">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Angabenprüfung&lt;br&gt;auf&amp;nbsp;Vollständigkeit" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;gradientColor=none;shadow=0;glass=0;sketch=0;labelBackgroundColor=none;perimeterSpacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="345" y="495" width="110" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="[unvollständigt]" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="54" target="50">
+                    <mxGeometry x="0.2381" relative="1" as="geometry">
+                        <mxPoint x="345" y="494.9999999999999" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="289" y="585"/>
+                            <mxPoint x="289" y="518"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="[vollständig]" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="54" target="48">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="399" y="644.9999999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="" style="rhombus;" vertex="1" parent="1">
+                    <mxGeometry x="384" y="570" width="30" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
