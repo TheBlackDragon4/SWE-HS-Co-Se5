@@ -17,9 +17,9 @@ Hiermit möchten wir ausdrücklich darauf hinweisen, dass ich das eigenständige
 
 ## Sonstiges:
 
-Entwicklungsumgebung: VSCode
-Diagrammerstellungsprogramm: Drawio
-Extention in VSCode: Draw.io Integration 
+Entwicklungsumgebung: VSCode <br />
+Diagrammerstellungsprogramm: Drawio <br />
+Extention in VSCode: Draw.io Integration <br />
 
 Link zum Moodle Raum:
 [Hier der Link zum Software Engineering Moodlekurs](https://moodle.hs-coburg.de/course/view.php?id=11156)
