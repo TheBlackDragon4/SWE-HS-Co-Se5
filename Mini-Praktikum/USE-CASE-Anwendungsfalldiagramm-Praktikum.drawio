@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="MoxgE1Hd8c-6P9EhcTV4" name="Anwendungsfalldiagramm">
-        <mxGraphModel dx="1197" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1041" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -43,9 +43,6 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="76" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="6" target="70">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="79" style="edgeStyle=none;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="6" target="71">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="80" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="6" target="74">
@@ -139,13 +136,10 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="69" value="Rechnungen und&lt;br&gt;Reservierungen&lt;br&gt;&amp;nbsp;einsehen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="640" y="394.5" width="140" height="70" as="geometry"/>
+                    <mxGeometry x="620" y="390" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="70" value="Melden von Pannen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="460" y="530" width="140" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="71" value="Melden von Pannen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="640" y="290" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="72" value="Serviceintervalle&amp;nbsp;&lt;br&gt;verwalten" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="890" y="50" width="140" height="70" as="geometry"/>
