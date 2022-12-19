@@ -6,10 +6,15 @@
  
 ## **Aufgabenbearbeitung:**
 
-__USE-CASE "Nutzung eines reservierten Autos"__
+__USE-CASE "Auto reservieren (includes Auto suchen/finden)"__
 
-1. 
-2. 
+__Positivszenario:__
+
+1. Kunde ruft die Suchfunktion auf 
+2. System stellt mehrere Suchkriterien zur Verfügung (Standort, Zeitraum, Modell, Preis)
+3. Kunde modelliert seine Suche nach gewünschten Kriterien
+4. System zeigt Liste reservierbarer Autos nach den angegebenen Kriterien an
+5. Kunde sucht sich passendes Fahrzeug aus und reserviert dieses
 
 
 
