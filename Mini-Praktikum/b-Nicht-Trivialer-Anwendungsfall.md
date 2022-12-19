@@ -16,10 +16,7 @@ __Positivszenario:__
 4. System zeigt Liste reservierbarer Autos nach den angegebenen Kriterien an
 5. Kunde sucht sich passendes Fahrzeug aus und reserviert dieses
 
-
-
 __Ausnahmeszenario 1:__
-
 
 
 
