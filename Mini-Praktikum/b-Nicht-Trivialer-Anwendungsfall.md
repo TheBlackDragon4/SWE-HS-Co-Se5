@@ -11,10 +11,7 @@ __USE-CASE "Nutzung eines reservierten Autos"__
 1. 
 2. 
 
-
-
 __Ausnahmeszenario 1:__
-
 
 
 
