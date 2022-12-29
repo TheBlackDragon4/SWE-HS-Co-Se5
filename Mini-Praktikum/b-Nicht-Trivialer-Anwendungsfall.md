@@ -25,12 +25,12 @@ __Positivszenario - Idee 1:__
 
 ENDE
 
-__Ausnahmeszenario A: Ungültige Eingabe des Datums (nach Schritt 8 Positivszenario)__
+__Ausnahmeszenario A: Ungültige Eingabe des Datums (nach Schritt 9 Positivszenario)__
 
 1. System erkennt ungültiges Datum (Datum in Vergangenheit / Datum existiert nicht)
 2. System erfragt neue Eingabe eines Datums
 3. Kunde macht gewünschte Eingabe
-4. weiter mit Schritt 8. Positivszenario
+4. weiter mit Schritt 9. Positivszenario
 
 __Ausnahmeszenario B: Auto ist schon von jemanden reserviert (nach Schritt 5 Positivszenario)__
 
