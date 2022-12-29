@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="uOoTb-6G8cg4r1ey1Et2" name="Page-1">
-        <mxGraphModel dx="588" dy="1545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1028" dy="1878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -120,6 +120,9 @@
                 </mxCell>
                 <mxCell id="33" value="Manuelle Bestätigung der&amp;nbsp;&lt;br&gt;Eingabe" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;gradientColor=none;shadow=0;glass=0;sketch=0;labelBackgroundColor=none;perimeterSpacing=0;" vertex="1" parent="1">
                     <mxGeometry x="425" y="120" width="182.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Aktivitäten des Systems integrieren:&lt;br&gt;bsp. Angaben Prüfen als Zwischenschritt,&amp;nbsp;&lt;br&gt;vor den Entscheidungsknoten" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="-935" width="240" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
