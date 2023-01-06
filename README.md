@@ -1,26 +1,26 @@
 # SWE-HS-Co-Se5
 
-Autor: BlackDragon , Lukey25
+Author: BlackDragon , Lukey25
 
 ## Repository:
 
-Hierbei handelt es sich um mein privates Repository für die Bearbeitung aller gestellten Aufgaben im Rahmen der Vorlesung "Software Engineering". 
-Eine Veränderung von Dritten ist hier ausdrücklich "NICHT" erwünscht. Anmerkungen und Verbesserungen sind gerne erlaubt.
+This is my private repository for the processing of all given tasks in the context of the lecture "Software Engineering". 
+A change of third parties is explicitly "NOT" desired here. Comments and improvements are welcome.
 
-## Persönliche Anmerkung:
+## Personal note:
 
-Da wir von uns erstellte Lösungen hochladen gebe wir keine Garantie auf Korrektheit der Lösungen. Außerdem geben wir keine Gewährleistung auf die Vollständige Lösung laut den Vorstellungen des Aufgabenstellers. Dieses Repository soll als Hilfe dienen, wenn jemand nicht mehr weiter kommt oder jemand gerne eine alternative Lösung zu einer Aufgabe oder einem Problem haben möchte. Außerdem dient dieses Repository für die Offizielle Abgabe an den Auftragsteller des Kurses
+Since we upload solutions created by us, we do not guarantee the correctness of the solutions. Furthermore, we do not give any warranty on the complete solution according to the ideas of the task creator. This repository should serve as a help if someone gets stuck or someone would like to have an alternative solution to a task or problem. In addition, this repository is used for the official submission to the course creator.
 
-## Eigene Empfehlung:
+## Own recommendation:
 
-Hiermit möchten wir ausdrücklich darauf hinweisen, dass ich das eigenständige Lösen der Aufgaben dennoch als Empfehlenswert sehe. Denn nur das eigenständige Lösen der Aufgaben können verschiedene Verständnissprobleme erkannt und selbst bereinigt werden. 
+Herewith we would like to point out expressly that I see the independent solving of the tasks nevertheless as recommendable. Because only the independent solving of the tasks can various comprehension problems be recognized and cleaned up themselves. 
 
-## Sonstiges:
+## Other:
 
-Entwicklungsumgebung: VSCode <br />
-Diagrammerstellungsprogramm: Drawio <br />
+Development environment: VSCode <br />
+Diagramming program: Drawio <br />
 Extention in VSCode: Draw.io Integration <br />
 
-Link zum Moodle Raum:
-[Hier der Link zum Software Engineering Moodlekurs](https://moodle.hs-coburg.de/course/view.php?id=11156)
+Link to the Moodle room:
+[Here is the link to the Software Engineering Moodle course](https://moodle.hs-coburg.de/course/view.php?id=11156)
  
