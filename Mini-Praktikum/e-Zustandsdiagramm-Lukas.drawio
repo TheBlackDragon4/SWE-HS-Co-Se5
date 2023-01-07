@@ -1,0 +1,103 @@
+<mxfile host="65bd71144e">
+    <diagram id="lRWaKhgl6cZIqivEN_aD" name="Page-1">
+        <mxGraphModel dx="1878" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="ellipse;fillColor=#000000;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="50" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="reservieren(Telefon/Internet)[Auto verfügbar]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6">
+                    <mxGeometry x="-0.4771" y="1" relative="1" as="geometry">
+                        <mxPoint x="50" y="-13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="70" y="90" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="50" y="210"/>
+                            <mxPoint x="-60" y="210"/>
+                            <mxPoint x="-60" y="80"/>
+                            <mxPoint x="50" y="80"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="18">
+                    <mxGeometry x="-0.3849" relative="1" as="geometry">
+                        <mxPoint x="-12" y="10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="keine Reservierung" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
+                    <mxGeometry x="15" y="119" width="140" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="650" y="80" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="565" y="40"/>
+                            <mxPoint x="690" y="40"/>
+                            <mxPoint x="690" y="135"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="ändern[vor Reservierungszeitraum]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8">
+                    <mxGeometry x="-0.4538" y="1" relative="1" as="geometry">
+                        <mxPoint x="38" y="-9" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="stornieren[vor Reservierungszeitraum]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="11">
+                    <mxGeometry x="-0.3499" relative="1" as="geometry">
+                        <mxPoint x="95" y="17" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="230" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="455" y="230"/>
+                            <mxPoint x="270" y="230"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Reservierungszeitraum beginnt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="16">
+                    <mxGeometry x="-0.0266" relative="1" as="geometry">
+                        <mxPoint x="-19" y="-10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Rerservierung getätigt&lt;br&gt;entry/reservierungsbestätigungSenden()" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="104" width="220" height="61" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="270" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="auf der Kundenkarte wird die Reservierung des Fahrzeuges hinterlegt,&lt;br&gt;damit legitimiert das System den Kunden als derzeitigen Nutzer des Fahrzeugs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-610" y="80" width="440" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="abstellen und sperren" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="21">
+                    <mxGeometry x="-0.3085" y="1" relative="1" as="geometry">
+                        <mxPoint x="59" y="19" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="Fahrzeug freigegeben&lt;br&gt;entry/kundenkarteFreischalten()" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="270" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Fahrzeug gesperrt&lt;br&gt;entry/freischaltungAufheben()" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="430" width="200" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
