@@ -1,0 +1,256 @@
+<mxfile host="65bd71144e">
+    <diagram id="lRWaKhgl6cZIqivEN_aD" name="Page-1">
+<<<<<<< Updated upstream
+        <mxGraphModel dx="1719" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+=======
+        <mxGraphModel dx="1785" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="3" edge="1">
+>>>>>>> Stashed changes
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="ellipse;fillColor=#000000;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="57.5" y="46.18" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="34" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="390" y="521" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="[Auto verfügbar]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4771" y="1" relative="1" as="geometry">
+                        <mxPoint x="50" y="-13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+<<<<<<< Updated upstream
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="23">
+=======
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="23" edge="1">
+>>>>>>> Stashed changes
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Suchparameter unvollständig&lt;br&gt;do/SuchparameterEingeben()" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="1" vertex="1">
+                    <mxGeometry x="-10" y="119" width="165" height="61" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="870" y="470" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="785" y="430"/>
+                            <mxPoint x="910" y="430"/>
+                            <mxPoint x="910" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="ändern[vor Reservierungszeitraum]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4538" y="1" relative="1" as="geometry">
+                        <mxPoint x="38" y="-9" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="stornieren[vor Reservierungszeitraum]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="11" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3499" relative="1" as="geometry">
+                        <mxPoint x="95" y="17" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="540" y="620" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="675" y="620"/>
+                            <mxPoint x="490" y="620"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Reservierungszeitraum beginnt/KundenkarteFreischalten()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="16" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0266" relative="1" as="geometry">
+                        <mxPoint x="-91" y="-10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+<<<<<<< Updated upstream
+                <mxCell id="5" value="Rerservierung getätigt&lt;br&gt;entry/reservierungsbestätigungSenden()" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="1" vertex="1">
+=======
+                <mxCell id="5" value="Reservierung getätigt&lt;br&gt;entry/reservierungsbestätigungSenden()" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="1" vertex="1">
+>>>>>>> Stashed changes
+                    <mxGeometry x="620" y="490" width="220" height="61" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="770" y="660" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="auf der Kundenkarte wird die Reservierung des Fahrzeuges hinterlegt,&lt;br&gt;damit legitimiert das System den Kunden als derzeitigen Nutzer des Fahrzeugs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-610" y="80" width="440" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="40" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="860" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="Fahrzeug abstellen und mit Kundenkarte sperren" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="21" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3085" y="1" relative="1" as="geometry">
+                        <mxPoint x="129" y="19" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+<<<<<<< Updated upstream
+                <mxCell id="41" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="40">
+=======
+                <mxCell id="41" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="15" target="40" edge="1">
+>>>>>>> Stashed changes
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Fahrzeug freigegeben&lt;br&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="660" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Fahrzeug gesperrt&lt;br&gt;entry/freischaltungAufheben()" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="940" width="200" height="40" as="geometry"/>
+                </mxCell>
+<<<<<<< Updated upstream
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="23" target="3">
+=======
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="23" target="3" edge="1">
+>>>>>>> Stashed changes
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-30" y="160" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-140" y="285"/>
+                            <mxPoint x="-140" y="150"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+<<<<<<< Updated upstream
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="23" target="28">
+=======
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="23" target="28" edge="1">
+>>>>>>> Stashed changes
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="270" y="285.11764705882354" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="343" y="285"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+<<<<<<< Updated upstream
+                <mxCell id="23" value="" style="rhombus;direction=east;" vertex="1" parent="1">
+                    <mxGeometry x="57.5" y="270" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="[ungültige Eingabe]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-115" y="260" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="28" target="34">
+=======
+                <mxCell id="23" value="" style="rhombus;direction=east;" parent="1" vertex="1">
+                    <mxGeometry x="57.5" y="270" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="[ungültige Eingabe]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-115" y="260" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="28" target="34" edge="1">
+>>>>>>> Stashed changes
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="343" y="490" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+<<<<<<< Updated upstream
+                <mxCell id="28" value="Suche ist erfolgt&lt;br&gt;entry/FahrzeuglisteAnzeigen()&lt;br&gt;do/FahrzeugAuswählen" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="350" width="165" height="61" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="[gültige Eingabe]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="152.5" y="260" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Suchanfrage absenden&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="210" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="34" target="28">
+=======
+                <mxCell id="28" value="Suche ist erfolgt&lt;br&gt;entry/FahrzeuglisteAnzeigen()&lt;br&gt;do/FahrzeugAuswählen" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="350" width="165" height="61" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="[gültige Eingabe]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="152.5" y="260" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Suchanfrage absenden&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="210" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="34" target="28" edge="1">
+>>>>>>> Stashed changes
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="360" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="160" y="521"/>
+                            <mxPoint x="160" y="381"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+<<<<<<< Updated upstream
+                <mxCell id="34" value="" style="rhombus;direction=east;" vertex="1" parent="1">
+                    <mxGeometry x="327.5" y="505.5" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Reservierung anfragen (Telefon/Internet)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="450" width="230" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="[Auto nicht verfügbar]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="500" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="40" target="15">
+=======
+                <mxCell id="34" value="" style="rhombus;direction=east;" parent="1" vertex="1">
+                    <mxGeometry x="327.5" y="505.5" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Reservierung anfragen (Telefon/Internet)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="450" width="230" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="[Auto nicht verfügbar]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="500" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="40" target="15" edge="1">
+>>>>>>> Stashed changes
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="210" y="650" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-20" y="820"/>
+                            <mxPoint x="-20" y="680"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+<<<<<<< Updated upstream
+                <mxCell id="40" value="Fahrzeug in Nutzung&lt;br&gt;do/DatenSammeln()" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="800" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Fahrzeug mit Kundenkarte öffnen [im Reservierungszeitraum]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="740" width="340" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Fahrzeug mit Kundenkarte schließen [im Reservierungszeitraum]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-2.5" y="800" width="360" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="hier nochmal gucken, ob if Verzweigung sinnvoll wäre.&lt;br&gt;im Reservierungs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="865" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="passt auf jeden Fall noch nicht, weil ich den Landes noch was fragen muss!!!" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="1">
+=======
+                <mxCell id="40" value="Fahrzeug in Nutzung&lt;br&gt;do/DatenSammeln()" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="800" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Fahrzeug mit Kundenkarte öffnen [im Reservierungszeitraum]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="740" width="340" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Fahrzeug mit Kundenkarte schließen [im Reservierungszeitraum]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-2.5" y="800" width="360" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="hier nochmal gucken, ob if Verzweigung sinnvoll wäre.&lt;br&gt;im Reservierungs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="865" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="passt auf jeden Fall noch nicht, weil ich den Landes noch was fragen muss!!!" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+>>>>>>> Stashed changes
+                    <mxGeometry x="57.5" y="900" width="420" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
