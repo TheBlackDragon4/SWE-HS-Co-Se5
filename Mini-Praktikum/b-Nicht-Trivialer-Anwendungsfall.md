@@ -14,10 +14,10 @@ __Positivszenario - Idee 1:__
 2. System stellt mehrere Suchkriterien zur Verfügung (Standort, Zeitraum, Modell, Preis)
 3. Kunde modelliert seine Suche nach gewünschten Kriterien (Kriterien eingeben)
 4. System prüft Angaben und zeigt Liste reservierbarer Autos nach den angegebenen Kriterien an
-5. Kunde sucht sich passendes Fahrzeug aus und möchte dieses reservieren (erzeugt reserviervorgang)
+5. Kunde sucht sich passendes Fahrzeug aus und möchte dieses reservieren (erzeugt Reserviervorgang)
 6. System erstellt Reserviervorgang und schliest Fahrzeug für andere Kunden aus der Fahrzeugsuche aus
 7. System fragt während Reserviervorgang nach dem gewünschten Zeitraum für die Reservierung
-8. Kunde gibt den gewünschten Zeitraum der Reservierung ein bzw. bestätigt den bereits angegebenen Zeitraum
+8. Kunde bestätigt den bei der Suche angegebenen Zeitraum oder passt diesen nach seinen Wünschen an
 9. System prüft die Datumseingabe auf Gültigkeit
 10. System fragt nach manueller Bestätigung der Reservierung
 11. Kunde bestätigt die Reservierung
