@@ -1,11 +1,14 @@
 <mxfile host="65bd71144e">
     <diagram id="wdgH_N6mdPazAOxBrSlu" name="Klassendiagramm">
-        <mxGraphModel dx="715" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="771" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="102" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.909;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="18" target="100">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="18" value="Fahrzeug" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-                    <mxGeometry x="905" y="530" width="140" height="182" as="geometry">
+                    <mxGeometry x="680" y="530" width="140" height="182" as="geometry">
                         <mxRectangle x="460" y="110" width="90" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -95,7 +98,7 @@
                     <mxGeometry y="260" width="140" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="Reservierung" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-                    <mxGeometry x="905" y="287" width="140" height="156" as="geometry">
+                    <mxGeometry x="680" y="287" width="140" height="156" as="geometry">
                         <mxRectangle x="460" y="110" width="90" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -115,7 +118,7 @@
                     <mxGeometry y="130" width="140" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" value="ROSTLAUBE24.com" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-                    <mxGeometry x="591.48" y="123" width="140" height="52" as="geometry">
+                    <mxGeometry x="680" y="123" width="140" height="52" as="geometry">
                         <mxRectangle x="460" y="110" width="90" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -128,7 +131,7 @@
                 </mxCell>
                 <mxCell id="54" value="Kunde ▶" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="52" vertex="1" connectable="0">
                     <mxGeometry x="0.0669" y="-1" relative="1" as="geometry">
-                        <mxPoint x="38" y="-36" as="offset"/>
+                        <mxPoint x="63" y="-8" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="55" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="52" vertex="1" connectable="0">
@@ -152,10 +155,10 @@
                         <mxPoint x="-11" y="-16" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="90" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=12;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;startSize=14;exitX=1.012;exitY=0.116;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="70" target="34" edge="1">
+                <mxCell id="90" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=12;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;startSize=14;exitX=1.012;exitY=0.116;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="70" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="640" y="370" as="sourcePoint"/>
-                        <mxPoint x="800" y="370" as="targetPoint"/>
+                        <mxPoint x="680" y="368" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="91" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="90" vertex="1" connectable="0">
@@ -183,6 +186,41 @@
                     <mxGeometry x="-0.9276" relative="1" as="geometry">
                         <mxPoint x="7" y="-18" as="offset"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="103" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="96" target="44">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="Lesegerät" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="940" y="300" width="160" height="130" as="geometry">
+                        <mxRectangle x="460" y="110" width="90" height="26" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" value="+ nutzungsdauer: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="96">
+                    <mxGeometry y="26" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="+ strecke: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="96">
+                    <mxGeometry y="52" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="+ KundenNr: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="96">
+                    <mxGeometry y="78" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="+ autoFreigegeben: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="96">
+                    <mxGeometry y="104" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="830" y="170" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="925" y="270" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="810" y="500" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="420" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="Hab hier noch das Lesegerät&lt;br&gt;ergänzt, das sollte als Klasse&lt;br&gt;auf jeden Fall noch dabei sein&lt;br&gt;Dafür müssen halt paar&amp;nbsp;&lt;br&gt;Attribute aus Fahrzeug raus, die&amp;nbsp;&lt;br&gt;jetzt im Lesegerät sind. Müssen&lt;br&gt;wer nochmal drüber reden&lt;br&gt;&lt;br&gt;Pimmel Pimmel Pimmel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="870" y="515" width="190" height="130" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
