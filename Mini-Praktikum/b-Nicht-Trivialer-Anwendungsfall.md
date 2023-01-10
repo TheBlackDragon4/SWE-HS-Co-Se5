@@ -32,11 +32,11 @@ __Ausnahmeszenario A: Ungültige Eingabe des Datums (nach Schritt 9 Positivszena
 3. Kunde macht gewünschte Eingabe
 4. weiter mit Schritt 9. Positivszenario
 
-__Ausnahmeszenario B: Auto ist schon von jemanden reserviert (nach Schritt 5 Positivszenario)__
+__Ausnahmeszenario B: Auto ist bereits in einem aktiven Reserviervorgang bzw. reserviert (nach Schritt 5 Positivszenario)__
 
-1. Mehrere Kunden bekommen identische Fahrzeuge in der Liste reservierbarer Autos  angezeigt 
+1. Mehrere Kunden bekommen identische Fahrzeuge in der Liste reservierbarer Autos angezeigt 
 2. Ein Kunde klickt auf den Reserverieren Button eines Fahrzeugs und löst somit Reserviervorgang aus
-3. System schliest das ausgewählte Fahrzeug für weitere Kunden aus
+3. System schliest das ausgewählte Fahrzeug für weitere Kunden aus der Suche aus
 4. Anderer Kunde möchte nun das gleiche Fahrzeug reservieren (Auswahl wurde nicht automatisch aktualisiert) 
 5. Dieser Kunde klickt auch auf den Reservieren Button dieses Fahrzeugs
 6. System erkennt, dass Fahrzeug sich gerade in einem Reserviervorgang befindet
