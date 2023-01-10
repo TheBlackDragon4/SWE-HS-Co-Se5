@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="r2AKeFDaDW2Wl4H9EOPQ" name="Zustandsdiagramm">
-        <mxGraphModel dx="289" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="623" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -203,6 +203,9 @@
                 <mxCell id="137" value="" style="ellipse;fillColor=#000000;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="110" y="1236" width="30" height="30" as="geometry"/>
                 </mxCell>
+                <mxCell id="140" value="Erster Gedanke für ein Zustandsdiagramm" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="95" y="1370" width="240" height="20" as="geometry"/>
+                </mxCell>
                 <mxCell id="141" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
                     <mxGeometry x="115" y="1716" width="30" height="30" as="geometry"/>
                 </mxCell>
@@ -211,6 +214,9 @@
                 </mxCell>
                 <mxCell id="143" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
                     <mxGeometry x="655" y="1586" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" value="Ideales Ende" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="2201" width="90" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
