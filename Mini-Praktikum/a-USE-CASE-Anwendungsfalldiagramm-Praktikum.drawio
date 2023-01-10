@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="MoxgE1Hd8c-6P9EhcTV4" name="Anwendungsfalldiagramm">
-        <mxGraphModel dx="955" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="881" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -97,7 +97,7 @@
                     <mxGeometry x="290" y="125" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" value="Fahrzeug suchen nach&lt;br&gt;Standort, Zeitraum,&amp;nbsp;&lt;br&gt;Modell / Preis" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="380" y="205" width="140" height="70" as="geometry"/>
+                    <mxGeometry x="610" y="150" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" value="Reservierung stornieren" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="290" y="540" width="140" height="70" as="geometry"/>
@@ -106,7 +106,7 @@
                     <mxGeometry x="470" y="422.5" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="47" value="Karte sperren" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="500" y="250" width="140" height="70" as="geometry"/>
+                    <mxGeometry x="450" y="250" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="49" value="Persönliche Daten&lt;br&gt;aktualisieren" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="445" y="125" width="140" height="70" as="geometry"/>
@@ -168,13 +168,10 @@
                 <mxCell id="93" value="Reservierungen&amp;nbsp;&lt;br&gt;einsehen" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="600" width="140" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="95" value="Fahrzeug suchen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="670" y="240" width="140" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="96" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="15" target="95">
+                <mxCell id="96" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="15" target="39" edge="1">
                     <mxGeometry x="-0.0487" y="-7" width="160" relative="1" as="geometry">
                         <mxPoint x="660" y="170" as="sourcePoint"/>
-                        <mxPoint x="820" y="170" as="targetPoint"/>
+                        <mxPoint x="694.9920783806472" y="301.8061886115264" as="targetPoint"/>
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
