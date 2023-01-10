@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="r2AKeFDaDW2Wl4H9EOPQ" name="Zustandsdiagramm">
-        <mxGraphModel dx="935" dy="-609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="650" dy="-796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -80,13 +80,13 @@
                 <mxCell id="86" value="Reservierung&lt;br&gt;erfolgreich" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;arcSize=10;dashed=0;" parent="1" vertex="1">
                     <mxGeometry x="300" y="1536" width="120" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="146" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="1" source="90" target="143" edge="1">
+                <mxCell id="153" style="edgeStyle=none;html=1;entryX=0.508;entryY=0.52;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;" edge="1" parent="1" source="90" target="151">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="90" value="Reservierung&amp;nbsp;&lt;br&gt;abgebrochen" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;arcSize=10;dashed=0;" parent="1" vertex="1">
                     <mxGeometry x="610" y="1466" width="120" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="96" style="edgeStyle=none;html=1;endArrow=open;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="93" target="141" edge="1">
+                <mxCell id="96" style="edgeStyle=none;html=1;endArrow=open;endFill=0;entryX=0.498;entryY=0.558;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="93" target="152" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="130" y="1716" as="targetPoint"/>
                     </mxGeometry>
@@ -124,8 +124,10 @@
                 <mxCell id="107" value="" style="rhombus;" parent="1" vertex="1">
                     <mxGeometry x="345" y="1716" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="148" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;" parent="1" source="113" target="142" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="148" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;entryX=0.532;entryY=0.505;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="113" target="150" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="655" y="1731" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="113" value="Nutzer&amp;nbsp;&lt;br&gt;nicht&amp;nbsp;&lt;br&gt;legitimiert" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;arcSize=10;dashed=0;" parent="1" vertex="1">
                     <mxGeometry x="450" y="1701" width="120" height="60" as="geometry"/>
@@ -169,17 +171,17 @@
                 <mxCell id="140" value="Erster Gedanke für ein Zustandsdiagramm&lt;br&gt;Nicht bewerten" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="95" y="1315" width="240" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="141" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-                    <mxGeometry x="115" y="1716" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="142" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-                    <mxGeometry x="655" y="1716" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="143" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-                    <mxGeometry x="655" y="1586" width="30" height="30" as="geometry"/>
-                </mxCell>
                 <mxCell id="149" value="Ideales Ende" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="390" y="2201" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="" style="shape=umlDestroy;" vertex="1" parent="1">
+                    <mxGeometry x="655" y="1716" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="" style="shape=umlDestroy;" vertex="1" parent="1">
+                    <mxGeometry x="655" y="1576" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="" style="shape=umlDestroy;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="1716" width="30" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
