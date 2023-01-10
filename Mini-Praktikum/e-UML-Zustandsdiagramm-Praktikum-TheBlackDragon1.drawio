@@ -1,40 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="r2AKeFDaDW2Wl4H9EOPQ" name="Zustandsdiagramm">
-        <mxGraphModel dx="623" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="935" dy="-609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=openThin;endFill=0;endSize=10;" parent="1" source="2" target="4" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="2" value="" style="ellipse;fillColor=#000000;strokeColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="195" y="50" width="30" height="30" as="geometry"/>
-                </mxCell>
                 <mxCell id="3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="345" y="2196" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="129" style="edgeStyle=none;html=1;endArrow=openThin;endFill=0;endSize=10;strokeWidth=1;" parent="1" source="4" target="134" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="430" y="160" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="130" style="edgeStyle=none;html=1;endArrow=openThin;endFill=0;endSize=10;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4" target="4" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="70" y="160" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="210" y="290"/>
-                            <mxPoint x="70" y="290"/>
-                            <mxPoint x="70" y="160"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="131" value="Eingaben fehlerhaft" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="130" vertex="1" connectable="0">
-                    <mxGeometry x="-0.5107" relative="1" as="geometry">
-                        <mxPoint x="8" y="-50" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="4" value="Parametereingabe Unvollständig&lt;br&gt;entry/Eingabe Suchkriterien&lt;br&gt;do/Suche nach Fahrzeugen&lt;br&gt;entsprechend der Eingabe" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="1" vertex="1">
-                    <mxGeometry x="115" y="119" width="190" height="81" as="geometry"/>
                 </mxCell>
                 <mxCell id="91" style="edgeStyle=none;html=1;endArrow=open;endFill=0;" parent="1" source="13" target="90" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -109,7 +80,7 @@
                 <mxCell id="86" value="Reservierung&lt;br&gt;erfolgreich" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;arcSize=10;dashed=0;" parent="1" vertex="1">
                     <mxGeometry x="300" y="1536" width="120" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="146" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="90" target="143">
+                <mxCell id="146" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="1" source="90" target="143" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="90" value="Reservierung&amp;nbsp;&lt;br&gt;abgebrochen" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;arcSize=10;dashed=0;" parent="1" vertex="1">
@@ -153,7 +124,7 @@
                 <mxCell id="107" value="" style="rhombus;" parent="1" vertex="1">
                     <mxGeometry x="345" y="1716" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="148" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="113" target="142">
+                <mxCell id="148" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;" parent="1" source="113" target="142" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="113" value="Nutzer&amp;nbsp;&lt;br&gt;nicht&amp;nbsp;&lt;br&gt;legitimiert" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;arcSize=10;dashed=0;" parent="1" vertex="1">
@@ -189,33 +160,25 @@
                 <mxCell id="126" value="Reservierung über&amp;nbsp;&lt;br&gt;Internet oder Telefon&lt;br&gt;und Auswahl&amp;nbsp;Fahrzeug" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="1" vertex="1">
                     <mxGeometry x="210" y="1220" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="133" value="Eingaben korrekt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="370.00263157894716" y="170" as="geometry">
-                        <mxPoint x="-3" y="-1" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="134" value="Fahrzeugausgabe&lt;br&gt;do/Ausgabe des Fahrzeugs nach&amp;nbsp;&lt;br&gt;Suchkriterium" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="129" width="190" height="61" as="geometry"/>
-                </mxCell>
                 <mxCell id="138" style="edgeStyle=none;html=1;endArrow=openThin;endFill=0;endSize=10;strokeWidth=1;" parent="1" source="137" target="126" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="137" value="" style="ellipse;fillColor=#000000;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="110" y="1236" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="140" value="Erster Gedanke für ein Zustandsdiagramm" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
-                    <mxGeometry x="95" y="1370" width="240" height="20" as="geometry"/>
+                <mxCell id="140" value="Erster Gedanke für ein Zustandsdiagramm&lt;br&gt;Nicht bewerten" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="95" y="1315" width="240" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="141" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                <mxCell id="141" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
                     <mxGeometry x="115" y="1716" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="142" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                <mxCell id="142" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
                     <mxGeometry x="655" y="1716" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="143" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                <mxCell id="143" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
                     <mxGeometry x="655" y="1586" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="149" value="Ideales Ende" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
+                <mxCell id="149" value="Ideales Ende" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="390" y="2201" width="90" height="20" as="geometry"/>
                 </mxCell>
             </root>
