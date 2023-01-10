@@ -17,7 +17,7 @@ __Positivszenario - Idee 1:__
 5. Kunde sucht sich passendes Fahrzeug aus und möchte dieses reservieren (erzeugt reserviervorgang)
 6. System erstellt Reserviervorgang und schliest Fahrzeug für andere Kunden aus der Fahrzeugsuche aus
 7. System fragt während Reserviervorgang nach dem gewünschten Zeitraum für die Reservierung
-8. Kunde gibt den gewünschten Zeitraum der Reservierung ein
+8. Kunde gibt den gewünschten Zeitraum der Reservierung ein bzw. bestätigt den bereits angegebenen Zeitraum
 9. System prüft die Datumseingabe auf Gültigkeit
 10. System fragt nach manueller Bestätigung der Reservierung
 11. Kunde bestätigt die Reservierung
@@ -36,7 +36,7 @@ __Ausnahmeszenario B: Auto ist schon von jemanden reserviert (nach Schritt 5 Pos
 
 1. Mehrere Kunden bekommen identische Fahrzeuge in der Liste reservierbarer Autos  angezeigt 
 2. Ein Kunde klickt auf den Reserverieren Button eines Fahrzeugs und löst somit Reserviervorgang aus
-3. System schliest das ausgewählte Fahrzeug für weiterer Kunden aus
+3. System schliest das ausgewählte Fahrzeug für weitere Kunden aus
 4. Anderer Kunde möchte nun das gleiche Fahrzeug reservieren (Auswahl wurde nicht automatisch aktualisiert) 
 5. Dieser Kunde klickt auch auf den Reservieren Button dieses Fahrzeugs
 6. System erkennt, dass Fahrzeug sich gerade in einem Reserviervorgang befindet
